@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+    background-image: url("../images/logo.jpg"); /* allows us to go up one directory to go down directory */
+    background-size: 152px 79px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+h1,h2,h3{
+    color: #282b28;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h2.subheading{
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-decoration: #94b591 underline;
+    text-decoration-thickness: 1.5px;
+}
+
+h1.title{
+    margin-top: 80px;
+    font-size: 2em;
+    margin-left: 0px;
+}
+
+p, ul{  /* class */
+    color: #2d2d2d;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+ul {
+    
+    list-style: none;
+    margin-left:-150px;
+
+} /* class */
+
+#credit {               /* id */
+    font-size: 0.7em;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#subfooter{  /* id */
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+    color: #94b591;
+    text-decoration: underline;
+}
+
+a.heading{
+
+    text-decoration: #94b591 wavy underline;;
+    background-color: none;
+    color:black;
+}
+
+a.heading:hover{  /* class */
+
+    background-color: none;
+    color: #94b591;
+
+}
+
+a.heading:active{
+
+    background-color: lightgray;
+    background-color: none;
+
+}
+a.heading:hover{
+
+    color: white;
+    background: #94b591;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+    background: #94b591;
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+#footer {
+    background: none;
+    border: none;
+    float: right;
+    margin: none;
+    padding: none;
+  }
+
+.images{
+    clear: right;
+}
